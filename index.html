@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Poster Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Poster Generator</h1>
+
+<div class="container">
+    <div class="controls">
+        <label>
+            Upload Your Own Poster
+            <input type="file" id="upload" accept="image/*">
+        </label>
+
+        <label>
+            Title
+            <input type="text" id="title" value="Tech Conference 2026">
+        </label>
+
+        <label>
+            Subtitle
+            <input type="text" id="subtitle" value="Innovate • Build • Scale">
+        </label>
+
+        <label>
+            Description
+            <textarea id="description">Join industry leaders for a day of technology, networking, and innovation.</textarea>
+        </label>
+
+        <button id="download">Download Poster</button>
+    </div>
+
+    <canvas id="canvas"></canvas>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
